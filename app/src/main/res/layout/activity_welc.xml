@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcActivity"
+    android:background="@color/purple">
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="91dp"
+        android:gravity="center"
+        android:text="Recipe Appication"
+        android:textAlignment="textStart"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:layout_width="397dp"
+        android:layout_height="439dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="170dp"
+        android:src="@drawable/spalsh" />
+
+
+</RelativeLayout>
